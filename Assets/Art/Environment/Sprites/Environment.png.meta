@@ -2866,7 +2866,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 9}
+        - {x: -2, y: 13}
+        - {x: -14, y: 10}
+        - {x: -10, y: 0}
+        - {x: -16, y: -9}
+        - {x: 0, y: -8}
+        - {x: 7, y: -15}
+        - {x: 13, y: -14}
+        - {x: 10, y: -2}
+        - {x: 16, y: 4}
       tessellationDetail: 0
       bones: []
       spriteID: 15d279df87b365645b517108f0f50cb2
@@ -3816,8 +3826,8 @@ TextureImporter:
         - {x: -15, y: -27}
         - {x: -12, y: -20}
         - {x: -16, y: -16}
-        - {x: -7, y: -11}
-        - {x: 11, y: -11}
+        - {x: -7, y: -6}
+        - {x: 13, y: -6}
         - {x: 20, y: -17}
         - {x: 12, y: -22}
         - {x: 11, y: -30}
@@ -3841,7 +3851,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 23, y: -8}
+        - {x: 15, y: -3}
+        - {x: -8, y: -3}
+        - {x: -21, y: -8}
+        - {x: -13, y: -20}
+        - {x: -14, y: -27}
+        - {x: 0, y: -22}
+        - {x: 10, y: -32}
+        - {x: 14, y: -28}
+        - {x: 14, y: -21}
+        - {x: 23, y: -18}
       tessellationDetail: 0
       bones: []
       spriteID: e5bd9f0a13147bd45bc8b339e9e37769
@@ -4714,8 +4735,8 @@ TextureImporter:
       Environment_35: 838593836
       Environment_39: 611340414
       Environment_33: -316132150
-      Environment_227: -1076024142
       Environment_42: -1235012077
+      Environment_227: -1076024142
       Environment_133: 2101924025
       Environment_128: -1503964947
       Environment_104: 682032974
@@ -4836,22 +4857,22 @@ TextureImporter:
       Environment_9: -1503761540
       Environment_157: 316169142
       Environment_144: -907571710
-      Environment_187: 746478203
+      Environment_31: -1469527115
       Environment_158: -705565757
       Environment_162: 996480977
+      Environment_187: 746478203
       Environment_213: 859788893
       Environment_256: 1722306596
-      Environment_31: -1469527115
+      Environment_219: -106280419
       Environment_97: 1292920199
       Environment_61: 843319485
       Environment_22: -390552474
       Environment_93: -1402650875
       Environment_248: 888410656
-      Environment_219: -106280419
+      Environment_264: 909313568
       Environment_206: 540538441
       Environment_91: -1550458944
       Environment_236: -2055494304
-      Environment_264: 909313568
       Environment_164: -2088165691
       Environment_109: -783807971
       Environment_169: -1124342880
