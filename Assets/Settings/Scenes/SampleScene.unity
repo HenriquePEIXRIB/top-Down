@@ -4845,7 +4845,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &975590930
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,6 +5044,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b4fdc71b3eb93f43ba7572f049e1cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _root: {fileID: 857446442}
+  _speed: 5
+  _roll: 4
+  _playerAnimator: {fileID: 0}
+  _rb: {fileID: 857446443}
+  _moveInput: {fileID: 1712415767832950777, guid: 7b46e10878fe1ca4ba866fae02fe89ee, type: 3}
+  _sprintInput: {fileID: 0}
+  _rollInput: {fileID: 0}
 --- !u!114 &1111065212
 MonoBehaviour:
   m_ObjectHideFlags: 0
