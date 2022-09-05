@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Movement : MonoBehaviour
+public class Movement : MonoBehaviour 
 {
     
     [SerializeField] Transform _root;
     [SerializeField] float _speed;
     [SerializeField] int _roll;
-    [SerializeField] Animator _PlayerAnimator;
+    [SerializeField] Animator _playerAnimator;
     [SerializeField] Rigidbody2D _rb;
     [SerializeField] InputActionReference _moveInput;
     [SerializeField] InputActionReference _sprintInput;
@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     
 
     Vector2 _playerMovement;
+    bool _isRunning;
     private void Start()
     {
         //Move 
@@ -40,20 +41,23 @@ public class Movement : MonoBehaviour
 
 
         //Movement
-        Vector2 direction = new Vector2(_playerMovement.x, 0);
+        Vector2 direction = new Vector2(_playerMovement.x, _playerMovement.y);
         _root.transform.Translate(direction * Time.deltaTime * _speed, Space.World);
 
-       
+       if(_isRunning)
+        {
+
+        }
 
         //Animator
         if (direction.x > 0) // Si on bouge
         {
-            _PlayerAnimator.SetBool("IsWalking", true);
+            _playerAnimator.SetBool("IsWalking", true);
 
         }
         else  //Sinon c'est que l'on ne bouge pas donc false
         {
-            _PlayerAnimator.SetBool("IsWalking", false); 
+            _playerAnimator.SetBool("IsWalking", false); 
         }
     }
     void StartMove(InputAction.CallbackContext obj)
